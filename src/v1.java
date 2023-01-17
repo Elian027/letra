@@ -15,7 +15,9 @@ public class v1 {
         cancelarButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                JOptionPane.showMessageDialog(null,"Gracias por usar mi programa");
+                peso.setText("");
+                altura.setText("");
+                respuesta.setText("");
             }
         });
         calcularButton.addActionListener(new ActionListener() {
