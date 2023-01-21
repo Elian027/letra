@@ -65,20 +65,20 @@
               <text value="Cancelar"/>
             </properties>
           </component>
-          <component id="4c5fc" class="javax.swing.JButton" binding="calcularButton" default-binding="true">
-            <constraints>
-              <grid row="3" column="0" row-span="2" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
-            </constraints>
-            <properties>
-              <text value="Calcular"/>
-            </properties>
-          </component>
           <component id="7e819" class="javax.swing.JLabel" binding="respuesta">
             <constraints>
-              <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
             </constraints>
             <properties>
               <text value="Su IMC es "/>
+            </properties>
+          </component>
+          <component id="4c5fc" class="javax.swing.JButton" binding="calcularButton" default-binding="true">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Calcular"/>
             </properties>
           </component>
         </children>
